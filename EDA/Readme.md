@@ -9,4 +9,4 @@ Every record identifies a construction permits information using various feature
 I have checked the data and removed the unwanted values and the unique values. I have grouped the status column values into few categories like ‘Cancel/Withdrawn’, ‘Revise/Resubmit’, ‘Denied’, ’Suspended’, ‘Revoked’ into Not issued and Approved into Issued. Then using the status values I have visulaized few of the values and the in which years do the construction permits are high.
 
 ### Future Performance:
-As mentioned in the abstract I like to predict the permits which can be issued or not. Based on this problem I like to work on few models which will help me to predict the problem and provide me certains results according to the cinditions.
+As mentioned in the abstract I like to predict the permits which can be issued or not. Based on this dataset I like to work on few models which will help me to predict the problem and provide me certains results according to the cinditions.
