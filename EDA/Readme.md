@@ -10,7 +10,7 @@ The columns which I have worked on are:
 #**APPLICATIONDATE:** This attribute explains the applied form for the permit, 
 #**PERMITTEENAME:** This column tells which permittee gives the permits for construction, 
 #**OWNERNAME:** It explains about the owners of the construction permits, 
-/n **APPLICATIONCOMPANYNAME:** This gives information regarding which company has applied for permit.
+\n **APPLICATIONCOMPANYNAME:** This gives information regarding which company has applied for permit.
 
 ### EDA:
 I have checked the data and removed the unwanted values and the unique values. I have grouped the status column values into few categories like ‘Cancel/Withdrawn’, ‘Revise/Resubmit’, ‘Denied’, ’Suspended’, ‘Revoked’ into Not issued and Approved into Issued. Then using the status values I have visualized few of the values and in which years do the construction permits are high. Plotting the top companies and permittees for the applications.
