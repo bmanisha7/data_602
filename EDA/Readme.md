@@ -5,6 +5,13 @@ The primary goal of every construction permit is to guarantee that people are sa
 https://opendata.dc.gov/datasets/construction-permits-in-2020/explore?location=38.916593%2C-77.022175%2C11.73&showTable=true
 Each record specifies a structure and allows information to be accessed through multiple features. The attributes include: X , Y, OBJECTID, APPLICATIONDATE, ISEXCAVATION, ISFIXTURE, ISPAVING,ISLANDSCAPING,ISPROJECTIONS,ISPSRENTAL ,TRACKINGNUMBER , PERMITNUMBER, INTAKEDATE, ISSUEDATE , EFFECTIVEDATE , EXPIRATIONDATE, XCOORD, YCOORD , STATUS, WLFULLADDRESS, PERMITTEENAME, OWNERNAME, CONTRACTORNAME, WORKDETAIL, READYFORREVIEWDATE, APPLICANTCOMPANYNAME, LATITUDE, LONGITUDE, GIS_ID, GLOBALID, CREATOR, CREATED, EDITOR,EDITED.
 
+The columns which I have worked on are:
+**STATUS:** This columns tells about the permit status, 
+**APPLICATIONDATE:** This attribute explains the applied form for the permit, 
+**PERMITTEENAME:** This column tells which permittee gives the permits for construction, 
+**OWNERNAME:** It explains about the owners of the construction permits, 
+**APPLICATIONCOMPANYNAME:** This gives information regarding which company has applied for permit.
+
 ### EDA:
 I have checked the data and removed the unwanted values and the unique values. I have grouped the status column values into few categories like ‘Cancel/Withdrawn’, ‘Revise/Resubmit’, ‘Denied’, ’Suspended’, ‘Revoked’ into Not issued and Approved into Issued. Then using the status values I have visualized few of the values and in which years do the construction permits are high. Plotting the top companies and permittees for the applications.
 
