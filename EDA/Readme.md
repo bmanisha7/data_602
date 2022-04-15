@@ -6,10 +6,15 @@ https://opendata.dc.gov/datasets/construction-permits-in-2020/explore?location=3
 Each record specifies a structure and allows information to be accessed through multiple features. The attributes include: X , Y, OBJECTID, APPLICATIONDATE, ISEXCAVATION, ISFIXTURE, ISPAVING,ISLANDSCAPING,ISPROJECTIONS,ISPSRENTAL ,TRACKINGNUMBER , PERMITNUMBER, INTAKEDATE, ISSUEDATE , EFFECTIVEDATE , EXPIRATIONDATE, XCOORD, YCOORD , STATUS, WLFULLADDRESS, PERMITTEENAME, OWNERNAME, CONTRACTORNAME, WORKDETAIL, READYFORREVIEWDATE, APPLICANTCOMPANYNAME, LATITUDE, LONGITUDE, GIS_ID, GLOBALID, CREATOR, CREATED, EDITOR,EDITED.
 
 The columns which I have worked on are:
+
 **STATUS:** This columns tells about the permit status, 
+
 **APPLICATIONDATE:** This attribute explains the applied form for the permit, 
+
 **PERMITTEENAME:** This column tells which permittee gives the permits for construction, 
+
 **OWNERNAME:** It explains about the owners of the construction permits, 
+
 **APPLICATIONCOMPANYNAME:** This gives information regarding which company has applied for permit.
 
 ### EDA:
