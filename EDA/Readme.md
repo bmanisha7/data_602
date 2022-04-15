@@ -5,3 +5,5 @@ The primary goal of every construction permit is to guarantee that people are sa
 https://opendata.dc.gov/datasets/construction-permits-in-2020/explore?location=38.916593%2C-77.022175%2C11.73&showTable=true
 Every record identifies a construction permits information using various features. The attributes include: X , Y, OBJECTID, APPLICATIONDATE, ISEXCAVATION, ISFIXTURE, ISPAVING,ISLANDSCAPING,ISPROJECTIONS,ISPSRENTAL ,TRACKINGNUMBER , PERMITNUMBER, INTAKEDATE, ISSUEDATE , EFFECTIVEDATE , EXPIRATIONDATE, XCOORD, YCOORD , STATUS, WLFULLADDRESS, PERMITTEENAME, OWNERNAME, CONTRACTORNAME, WORKDETAIL, READYFORREVIEWDATE, APPLICANTCOMPANYNAME, LATITUDE, LONGITUDE, GIS_ID, GLOBALID, CREATOR, CREATED, EDITOR,EDITED.
 
+### EDA:
+I have checked the data and removed the unwante values and the unique values. I have grouped the status column values into few categories like ‘Cancel/Withdrawn’, ‘Revise/Resubmit’, ‘Denied’, ’Suspended’, ‘Revoked’ into Not issued and Approved into Issued. Then using the status values I have visulaized few of the values and the in which years do the construction permits are high.
