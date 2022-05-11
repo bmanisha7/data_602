@@ -55,4 +55,4 @@ https://github.com/appliedecon/data602-lectures
 
 https://www.statology.org/plot-multiple-roc-curves-python/
 
-https://python-visualization.github.io/folium/quickstart.html
+https://medium.com/datasciencearth/map-visualization-with-folium-d1403771717
