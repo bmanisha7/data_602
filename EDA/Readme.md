@@ -20,17 +20,16 @@ The columns which I have worked on are:
 ### EDA:
 I have checked the data and removed the unwanted values and the unique values. I have grouped the status column values into few categories like ‘Cancel/Withdrawn’, ‘Revise/Resubmit’, ‘Denied’, ’Suspended’, ‘Revoked’ into Not issued and Approved into Issued. Then using the status values I have visualized few of the values and in which years do the construction permits are high. Plotting the top companies and permittees for the applications. From the graphs I have observed there are more permits in the year 2020 and there are also more permits which are not issued than 2019.
 
-### Future Performance:
-As mentioned in the abstract I like to predict the permits which can be issued or not. Based on this dataset I like to work on few models which will help me to predict the problem and provide me certains results according to the conditions.
-
 ### Data Cleaning
 After observering from the EDA I have dropped few columns and used the attributes which are helpful for the modeling.
 
 ### Feature Engineering
-I have used One hot encoding(OHE) which is a popular technique used for categorical encoding. With the help of simple imputer the pipeline managed handling the missing data. 
+I have used One hot encoding(OHE) which is a popular technique used for categorical encoding. <br/>
+With the help of simple imputer the pipeline managed the missing data. <br/>
+As I wanted to predict whether a new construction permit will be issued or not. To acheive the goal I have performed the models on the data.
 
 ### Modeling
-Independent variables are analyzed to determine the binary outcome with the results falling into one of two categories. The independent variables can be categorical or numeric, but the dependent variable is always categorical in case of classification algorithms. I have used logistic regression model , Decision trees, support vector classifer and neural networks. Parameters are tuned using grid search for the Machine learning models. 
+The binary outcome is determined by analyzing independent factors, with the findings falling into one of two groups. In classification algorithms, the independent variables might be categorical or numeric, but the dependent variable is always categorical. I have used logistic regression model , Decision trees, support vector classifer and neural networks. Parameters are tuned using grid search for the Machine learning models. 
 
 ### Results and Discussions
 Logistic Regression score:0.7753533283093608 <br />
