@@ -38,8 +38,8 @@ Decision Tree score:0.844604552800145 <br />
 Support Vector Classifier score:0.8308271012657477 <br />
 Neural Network score:0.861576660459342 <br />
 
-Logistic: ROC AUC=0.7703 <br />
-Tree: ROC AUC=0.8307 <br />
+Logistic Regression: ROC AUC=0.7703 <br />
+Decision Tree: ROC AUC=0.8307 <br />
 SVC: ROC AUC=0.8158 <br />
 Neural Network: ROC AUC=0.8457 <br />
 
