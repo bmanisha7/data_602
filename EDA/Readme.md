@@ -45,7 +45,7 @@ Regarding ROC AUC score , Decision tree and Neural network is more than other al
 ### Next steps
 Working with more features can help us in understanding the data more. <br />
 Applying other parameters improves the models performance. <br />
-Instead of just predicting two labels (Issued and Not issued ), we can predict more specific other classes. <br />
+Instead of just predicting two labels Issued and Not issued, we can predict more specific other classes. <br />
 
 ### References
 https://github.com/appliedecon/data602-lectures
