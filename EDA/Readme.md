@@ -26,6 +26,7 @@ After observering from the EDA I have dropped few columns and used the attribute
 ### Feature Engineering
 I have used One hot encoding(OHE) which is a popular technique used for categorical encoding. <br/>
 With the help of simple imputer the pipeline managed the missing data. <br/>
+The data was imbalance and I have used f1 score in evaluating the performances of the models.<br/>
 As I wanted to predict whether a new construction permit will be issued or not. To acheive the goal I have performed the models on the data.
 
 ### Modeling
