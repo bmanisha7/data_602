@@ -54,3 +54,5 @@ Instead of just predicting two labels Issued and Not issued, we can predict more
 https://github.com/appliedecon/data602-lectures
 
 https://www.statology.org/plot-multiple-roc-curves-python/
+
+https://python-visualization.github.io/folium/quickstart.html
