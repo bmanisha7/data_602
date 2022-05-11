@@ -23,8 +23,11 @@ I have checked the data and removed the unwanted values and the unique values. I
 ### Future Performance:
 As mentioned in the abstract I like to predict the permits which can be issued or not. Based on this dataset I like to work on few models which will help me to predict the problem and provide me certains results according to the conditions.
 
+### Data Cleaning
+After observering from the EDA I have dropped few columns and used the attributes which are helpful for the modeling.
+
 ### Feature Engineering
-I have used One hot encoding(OHE) which is a popular technique used for categorical encoding.
+I have used One hot encoding(OHE) which is a popular technique used for categorical encoding. With the help of simple imputer the pipeline managed handling the missing data. 
 
 ### Modeling
 Independent variables are analyzed to determine the binary outcome with the results falling into one of two categories. The independent variables can be categorical or numeric, but the dependent variable is always categorical in case of classification algorithms. I have used logistic regression model , Decision trees, support vector classifer and neural networks. Parameters are tuned using grid search for the Machine learning models. 
