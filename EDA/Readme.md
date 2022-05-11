@@ -30,22 +30,22 @@ I have used One hot encoding(OHE) which is a popular technique used for categori
 Independent variables are analyzed to determine the binary outcome with the results falling into one of two categories. The independent variables can be categorical or numeric, but the dependent variable is always categorical in case of classification algorithms. I have used logistic regression model , Decision trees, support vector classifer and neural networks. Parameters are tuned using grid search for the Machine learning models. 
 
 ### Results and Discussions
-Logistic Regression score:0.7753533283093608 
-Decision Tree score:0.844604552800145 
-Support Vector Classifier score:0.8308271012657477 
-Neural Network score:0.861576660459342
+Logistic Regression score:0.7753533283093608 <br />
+Decision Tree score:0.844604552800145 <br />
+Support Vector Classifier score:0.8308271012657477 <br />
+Neural Network score:0.861576660459342 <br />
 
-Logistic: ROC AUC=0.7703
-Tree: ROC AUC=0.8307
-SVC: ROC AUC=0.8158
-Neural Network: ROC AUC=0.8457
+Logistic: ROC AUC=0.7703 <br />
+Tree: ROC AUC=0.8307 <br />
+SVC: ROC AUC=0.8158 <br />
+Neural Network: ROC AUC=0.8457 <br />
 
 Regarding ROC AUC score , Decision tree and Neural network is more than other algorithms. Accuracy is better for Neural Network and Tree. Rather than the machine learning algorithms, Neural Network performed better according to this data.
 
 ### Next steps
-Working with more features can help us in understanding the data more.
-Applying other parameters improves the models performance.
-Instead of just predicting two labels (Issued and Not issued ), we can predict more specific other classes.
+Working with more features can help us in understanding the data more. <br />
+Applying other parameters improves the models performance. <br />
+Instead of just predicting two labels (Issued and Not issued ), we can predict more specific other classes. <br />
 
 ### References
 https://github.com/appliedecon/data602-lectures
